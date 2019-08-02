@@ -1,0 +1,81 @@
+*
+{
+	box-sizing:border-box;
+}
+
+body
+{
+	margin:0px;
+	background:lightgrey;
+}
+
+
+
+
+
+
+
+
+
+nav
+{
+	background:#15294b;
+	height:50px;
+	text-align:center;
+	list-style-type:none;
+	padding:2px;
+	width:100%;
+}
+
+
+
+.menu
+{
+	list-style-type:none;
+	display:inline;
+	text-decoration:none;
+	padding:15px;
+	font-size:18px;
+	
+	
+}
+
+
+.container
+{
+	max-width:1200px;
+	margin:auto;
+	
+	
+	
+	
+}
+.Tour
+{
+	margin:8px;
+	margin-left:25px;
+	float:left;
+	width:350px;
+	overflow:auto;
+	
+}
+
+.Tour, #logo
+{
+	width:350px;
+	height:auto;
+	
+}
+
+.desc
+{
+	padding:15px;
+	text-align:center;
+	background:white;
+}
+h4
+{
+	text-align:center;
+}
+
+

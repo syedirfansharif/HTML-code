@@ -1,0 +1,89 @@
+<html>
+<head>
+<title> Contact </title>
+
+<style>
+
+.input-text
+{
+	font-size:15px;
+	padding-bottom:22px;
+	padding-top:17px;
+	margin-bottom:32px;
+	border-bottom: 1px solid #ccc;
+     width:350px;
+	 border-top-style: none;
+     border-left-style: none;
+     border-right-style: none;
+}
+
+#button
+{
+	background-color:#0056ff;
+	padding:12px;
+	font-size:13px;
+	color:white;
+	text-align:center;
+	border:none;
+	
+}
+#frm
+{
+	border:1.5px solid grey;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:350px;
+	padding:45px;
+	
+}
+nav
+{
+	background:#15294b;
+	height:50px;
+	text-align:center;
+	list-style-type:none;
+	padding:2px;
+	width:100%;
+}
+
+
+
+.menu
+{
+	list-style-type:none;
+	display:inline;
+	text-decoration:none;
+	padding:15px;
+	font-size:18px;
+	
+	
+}
+</style>
+</head>
+<body>
+ <nav>
+    <ul>
+    
+      <li class="menu"><a href="trip.html" target="_blank" style="color:#FFFFFF; " >Trip</a></li>
+      <li class="menu"><a href="about.html" target="_blank" style="color:#FFFFFF";>About</a></li>
+      <li class="menu"><a href="contact.html" target="_blank" style="color:#FFFFFF";>Contact</a></li> 
+    	  
+    </ul> 
+    </nav>
+<!-- Creating form -->
+<form id="frm">
+<center> <p><h3> Wanna join in the next trip?Contact me..</h3></p></center>
+    <div id="input-box">
+    <input class="input-text" name="username" type=" text" placeholder="username" required>
+      <br />
+    <input class="input-text" name="email" type="email" placeholder="email" required>
+      <br />
+    
+    <input class="input-text" name="Contact" type="PhoneNumber" placeholder="PhoneNumber"  required>
+      <br />
+    <center><input id="button" type="submit" name="Submit" value="Submit" required></center>
+    </div>
+</form>
+</body>
+</html>
